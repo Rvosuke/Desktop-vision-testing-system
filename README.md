@@ -1,7 +1,4 @@
-# hand
-	1.hand_position(IMAGE):输入一个图片（cv2的已经读取后的图片类型，可以理解为ndarray），返回这个图片中手部的21个点位，返回值为21*2的ndarray数组。
-	2.find_finger（IMAGE):输入一个图片，返回图片中最长的手指的向量，返回类型为ndarray数组
-	3.finger_arg(ls：list):输入一个二维向量，返回其幅角。
+# 更新日志
 # 2022.11.7
     暂时取定相机的等效焦距为24mm
 
