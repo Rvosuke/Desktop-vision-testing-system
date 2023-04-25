@@ -1,34 +1,62 @@
-# 更新日志
-# 2022.11.7
-    暂时取定相机的等效焦距为24mm
+# Vision Function Detection Software for Windows
 
-# 11.11
-    使用霍夫变换对卡片进行了直线检测，能够成功检测出来卡片的两条长边，计划在使用中要求用户手握短边进行测距。
-    成功地计算出了卡片的像素宽度
+This is a vision function detection software developed for the Windows platform. It provides an easy-to-use interface for users to test their visual acuity through a series of interactive tests. The software has been awarded a "Good Project Conclusion" at the university level for student innovation projects.
 
-# 11.13
-    成功添加了使用Pyside2编写的windows软件。
+## Features
 
-# 2023.3.1
-    1.成功设计出了视力测试，但是不能进行距离的确定
-    2.有一个bug：第一次测试必错
+1. User-friendly application interface
+2. Algorithm design for generating visual targets and corresponding detection mechanisms
+3. Integration of computer camera for gesture recognition during tests
 
-# 3.2
-    1.逐渐修复了第一次测试出错的问题
-    2.缩小了应用程序的内存占用
+## Technologies and Dependencies
 
-# 3.3
-    1.成功实现了将摄像头界面调入到调试界面中
-    2.实现了能用一个手掌来捂住眼睛，另一个手来指
+- Python 3.9
+- PySide2 for GUI development
+- NumPy for algorithm development
 
-# 3.4
-    1.添加了使用说明
-    2.修复了refresh的bug
+## Update Log
 
-# 3.5
-    1.新增功能：两只手掌同时伸出表示看不清。但相关使用说明未添加
-    2.目前的测试效果良好
+### 2022.11.7
 
-# 3.9
-    1.现在进行了一系列优化，并对软件进行了测试，得到测试标准差在0.2左右，测试结果基本可信
-    2.现在本项目已经结题
+- Temporarily set the equivalent focal length of the camera to 24mm.
+
+### 11.11
+
+- Implemented Hough Transform for card edge detection, successfully detecting the two long edges of the card. Planning to require users to hold the short edge during distance measurement.
+- Successfully calculated the pixel width of the card.
+
+### 11.13
+
+- Successfully added a Windows application written with PySide2.
+
+### 2023.3.1
+
+- Successfully designed a vision test, but distance determination is not yet implemented.
+- Bug: First test always fails.
+
+### 3.2
+
+- Gradually fixed the issue with the first test failing.
+- Reduced the memory usage of the application.
+
+### 3.3
+
+- Successfully integrated the camera interface into the debugging interface.
+- Implemented gesture recognition for covering one eye with one hand and pointing with the other.
+
+### 3.4
+
+- Added usage instructions.
+- Fixed the refresh bug.
+
+### 3.5
+
+- New feature: Stretching out both hands simultaneously indicates the user cannot see clearly. However, related usage instructions have not been added yet.
+- The current testing performance is good.
+
+### 3.9
+
+- Implemented a series of optimizations and tested the software. The standard deviation of test results is around 0.2, and the results are generally reliable.
+- The project has now concluded.
+
+Feel free to explore the repository and use the code in your own projects. If you have any questions or suggestions, please don't hesitate to reach out. Enjoy using the software!
